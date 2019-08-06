@@ -1,0 +1,16 @@
+windows:
+  - name: cockpit
+    root: ~/Documents/dev/
+    layout: cockpit
+    panes:
+      - echo 'LEFT-COLUMN-TOP-LEFT'
+      - echo 'RIGHT-COLUMN-TOP-TOP-LEFT'
+      - commands:
+          - echo 'RIGHT-COLUMN-BOTTOM'
+        focus: true
+      - echo 'LEFT-COLUMN-MIDDLE'
+      - echo 'LEFT-COLUMN-BOTTOM'
+      - echo 'LEFT-COLUMN-TOP-RIGHT'
+      - echo 'RIGHT-COLUMN-TOP-TOP-RIGHT'
+      - echo 'RIGHT-COLUMN-TOP-BOTTOM-LEFT'
+      - echo 'RIGHT-COLUMN-TOP-BOTTOM-RIGHT'

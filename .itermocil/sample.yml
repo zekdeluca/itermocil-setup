@@ -1,0 +1,10 @@
+windows:
+  - name: sample-three-panes
+    root: /Users/<username>/Documents/dev
+    layout: main-vertical-flipped
+    panes:
+      - commands:
+        - date
+        - pwd
+      - pwd
+      - pwd

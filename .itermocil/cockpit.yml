@@ -1,6 +1,6 @@
 windows:
   - name: cockpit
-    root: ~/Documents/dev/
+    root: ~/Documents/Development/dev/Projects
     layout: cockpit
     panes:
       - echo 'LEFT-COLUMN-TOP-LEFT'
